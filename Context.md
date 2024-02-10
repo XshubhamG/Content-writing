@@ -1,0 +1,21 @@
+# Content Tech Writing
+
+- HTTP ------ [x]
+- Html
+- CSS
+- Tailwind CSS
+- Responsive Design --- [x]
+- Vite
+- Git/Github -------- [x]
+- JavaScript -------- [x]
+- TypeScript
+- React -------- [x]
+- Astro
+- NextJS
+- NodeJS
+- ExpressJS
+- Appwrite
+- Indexed Database
+- DSA -------- [x]
+- Neovim ----- [x]
+- VScode
