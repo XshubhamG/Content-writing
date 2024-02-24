@@ -1,4 +1,4 @@
-# Linux Foundation
+# Linux Foundamentals
 
 ## Learning the Shell
 
@@ -106,7 +106,10 @@ $ ln -s funny_passwd funny_symbolic            # create a symbolic link named fu
 
 # rm
 $ cd ~
-$ rm -rf Playground                            # remove the directory
+$ rmdir Playground                             # remove the directory
+$ rm file.txt                                  # remove a file
+$ rm -r dir/                                   # remove a file or directory which has stuff in it
+$ rm -rf dir/                                  # red dont use this command
 
 ```
 
@@ -146,7 +149,85 @@ $ grep                   # Print lines matching a pattern
 $ wc                     # Print newline, word, and byte counts for each file
 $ head                   # Output the first part of files
 $ tail                   # Output the last part of files
+$ echo                   # Display a line of text
 
 ```
 
+## Advance keyboard tricks
 
+- cursor movement
+
+```sh
+Ctrl-a                  # Move cursor to the beginning of the line.
+Ctrl-e                  # Move cursor to the end of the line.
+Ctrl-f                  # Move cursor forward one character; same as the right arrow key.
+Ctrl-b                  # Move cursor backward one character; same as the left arrow key.
+Alt-f                   # Move cursor forward one word.
+Alt-b                   # Move cursor backward one word.
+Ctrl-l                  # Clear the screen and move the cursor to the top-left corner. The `clear` command does the same thing.
+```
+
+- modifying text
+
+```sh
+Ctrl-d                  # Delete the character at the cursor location.
+Ctrl-t                  # Transpose (exchange) the character at the cursor location with the one preceding it.
+Alt-t                   # Transpose the word at the cursor location with the one preceding it.
+Alt-l                   # Convert the characters from the cursor location to the end of the word to lowercase.
+Alt-u                   # Convert the characters from the cursor location to the end of the word to uppercase.
+```
+
+## Permission
+
+- system security Commands
+
+```sh
+$ id                    # Display user identity
+$ chmod                 # Change a file's mod
+$ umask                 # set the default file Permission
+$ su                    # Run shell as another user
+$ sudo                  # execute command as another user
+$ chown                 # Change file's owner
+$ chgrp                 # Change file's group ownership
+$ passwd                # Change a user's passsword
+
+```
+
+- Reading, Writing & Executing
+
+| Attribute | filetype                 |
+| --------- | ------------------------ |
+| -         | A regular file           |
+| d         | A directory              |
+| l         | A symbolic link.Notice   |
+| c         | A character special file |
+| b         | A block file             |
+
+- The remaining nine characters of the file attributes, called the file mode, represent the
+  read, write, and execute permissions for the file's owner, the file's group owner, and
+  everybody else.
+
+- File Permission Attribute
+
+| Attribute | File                                    | Directories                                                                 |
+| --------- | --------------------------------------- | --------------------------------------------------------------------------- |
+| r         | Allow a file to be opened and read      | Allow a directory's contents to be listed if execute attributes is also set |
+| w         | Allows a file to be written to or       | Allow files within a `dir` to be created, deleted and renamed               |
+| x         | Allow a file to be treated as excutable | Allow a directories to be entered, e.g; cd `directory`                      |
+
+## Processes
+
+- `ps` : Report a snapshot of current processes.
+- `top` : Display tasks
+- `jobs` : List active jobs
+- `bg` : Place a job in the background
+- `fg` : Place a job in the foreground
+- `kill` :Send a signal to a processes
+- `killall` : Kill processes by name
+- `shutdown` : shutdown or reboot the system
+
+```sh
+$ sudo reboot
+$ sudo shutdown -r now
+$ sudo shutdown -h now
+```

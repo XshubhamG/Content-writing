@@ -131,3 +131,13 @@ body {
   min-height: 100vh;
 }
 ```
+
+## Use of grid to make responsive card container
+
+```css
+.grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+```
