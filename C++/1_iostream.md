@@ -17,9 +17,10 @@ cout << x; // output
 istream& getline(istream& is, string& str, char delim);
 
 ```
-* is :- is an object of the istream class that tells the stream's function the input that need to be read.
-* str :- is the string object  which store the input after the stream's reading process is finished.
-* delim ;- is the dilimiatation character, which commands the function to stop processing the input.By default, a newline character
+
+- is :- is an object of the istream class that tells the stream's function the input that need to be read.
+- str :- is the string object which store the input after the stream's reading process is finished.
+- delim ;- is the dilimiatation character, which commands the function to stop processing the input.By default, a newline character
   is delim.
 
 ```cpp
@@ -60,4 +61,3 @@ int main() {
 }
 
 ```
-

@@ -109,7 +109,7 @@ $ cd ~
 $ rmdir Playground                             # remove the directory
 $ rm file.txt                                  # remove a file
 $ rm -r dir/                                   # remove a file or directory which has stuff in it
-$ rm -rf dir/                                  # red dont use this command
+$ rm -rf dir/                                  # WARN: dont use this command
 
 ```
 
@@ -160,11 +160,11 @@ $ echo                   # Display a line of text
 ```sh
 Ctrl-a                  # Move cursor to the beginning of the line.
 Ctrl-e                  # Move cursor to the end of the line.
-Ctrl-f                  # Move cursor forward one character; same as the right arrow key.
+Ctrl-f                  # Move cursor forward one character; INFO: same as the right arrow key.
 Ctrl-b                  # Move cursor backward one character; same as the left arrow key.
 Alt-f                   # Move cursor forward one word.
 Alt-b                   # Move cursor backward one word.
-Ctrl-l                  # Clear the screen and move the cursor to the top-left corner. The `clear` command does the same thing.
+Ctrl-l                  # Clear the screen and move the cursor to the top-left corner.INFO: `clear` command does the same thing.
 ```
 
 - modifying text

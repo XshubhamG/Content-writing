@@ -19,3 +19,4 @@
 - DSA -------- [x]
 - Neovim ----- [x]
 - VScode
+- Linux ------ [x]
