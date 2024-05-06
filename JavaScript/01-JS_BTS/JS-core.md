@@ -18,7 +18,7 @@
 
 - A Just-in-time Compilation
 - Callstack :- where our code is executed using execution context.
-- Heap :- where  object requried is stored.
+- Heap :- where object requried is stored.
 
 ## Compilation And Interpretation
 
@@ -48,10 +48,10 @@ Entire Source code is converted into machine code at once, then executed immedia
 ## Execution Contexts
 
 - Environment in which a piece of JavaScript code executed. Stores all the neccassary information for some code to be
-executed.
+  executed.
 
-- There is Exactly **ONE** global Execution contexts(EC) :- Default context, 
-created for code that is not inside any function.
+- There is Exactly **ONE** global Execution contexts(EC) :- Default context,
+  created for code that is not inside any function.
 
   - One Execution Contexts per function.
 
@@ -61,7 +61,7 @@ created for code that is not inside any function.
 - [Scope chain]
 - [this keyword]
 
-[!NOTE] :- An Arrow Function doesn't have its argument variable and this keyword. Instead they can use argument variable 
+[!NOTE] :- An Arrow Function doesn't have its argument variable and this keyword. Instead they can use argument variable
 and this keyword of the nearest function declaration.
 
 ## Callstack
@@ -71,6 +71,3 @@ and this keyword of the nearest function declaration.
 ## Scope chain
 
 - Scoping is how our program's variables are orgainzed and accessed.
-
-
-

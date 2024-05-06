@@ -5,11 +5,10 @@
 - The first truthy value get return.
 
 ```ts
-console.log(3 || "Shubham");    // 3
-console.log('' || "Shubham");   // Shubham
-console.log(true || 0);         // true
-console.log(undefined || null); // null
-
+console.log(3 || 'Shubham') // 3
+console.log('' || 'Shubham') // Shubham
+console.log(true || 0) // true
+console.log(undefined || null) // null
 ```
 
 ## Short-circuiting in '&&'
@@ -17,9 +16,8 @@ console.log(undefined || null); // null
 - The first falsy value get return. If there is no falsy value then the last truthy value get return.
 
 ```ts
-console.log(0 && 'Shubham');   // 0
-console.log(7 && 'Shubham');   // Shubham
-
+console.log(0 && 'Shubham') // 0
+console.log(7 && 'Shubham') // Shubham
 ```
 
 ## Nullish Coalesing Operator ??
@@ -27,13 +25,11 @@ console.log(7 && 'Shubham');   // Shubham
 - It avoid only nullish values (undefined & null) not all falsy values.
 
 ```ts
-const a = 0;
+const a = 0
 
-let b = a || 10;
-console.log(b); // 10
+let b = a || 10
+console.log(b) // 10
 
-b = a ?? 10;
-console.log(b); // 0
-
+b = a ?? 10
+console.log(b) // 0
 ```
-

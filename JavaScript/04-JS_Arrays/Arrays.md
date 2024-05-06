@@ -1,5 +1,1 @@
 # Arrays in JavaScript
-
-
-
-

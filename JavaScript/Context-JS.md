@@ -11,7 +11,6 @@
 - Regular function v/s Arrow function
 - Primitive types v/s Refrence types
 
-
 ## Data Structure, Modern Operators and Strings
 
 - Destructuring Arrays
@@ -34,12 +33,8 @@
 
 ## Functions
 
-
 ## Arrays
-
 
 ## Numbers, Date & Times
 
-
 ## Advance DOM
-

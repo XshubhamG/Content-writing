@@ -236,3 +236,14 @@ backups. It is also used when old data is moved from a system to some type of lo
 | `tr`     | Translate or delete character                     |
 | `sed`    | Stream editor for filtering and transforming text |
 | `aspell` | Interactive spell checker                         |
+
+## Formatting Output
+
+| Command  | Description                       |
+| -------- | --------------------------------- |
+| `nl`     | Number lines                      |
+| `fold`   | Wrap each line to specific length |
+| `fmt`    | A simple text formatter           |
+| `printf` | Format and print data             |
+| `pr`     | Prepare text for printing         |
+| `groff`  | A documentation formatting system |
